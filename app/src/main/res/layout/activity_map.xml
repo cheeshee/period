@@ -86,6 +86,7 @@
         android:layout_height="87dp"
         android:background="@null"
         android:scaleType="fitCenter"
+        android:backgr
         app:srcCompat="@drawable/pin"
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="369dp" />
