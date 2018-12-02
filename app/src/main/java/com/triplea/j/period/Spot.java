@@ -11,7 +11,7 @@ public class Spot {
     private int avail;
     private int used;
     private int donated;
-    private Button marker;
+    public Button marker;
 
     public Spot(int x, int y) {
         this.x = x;
@@ -19,7 +19,6 @@ public class Spot {
         this.avail = 0;
         this.used = 0;
         this.donated = 0;
-        this.marker = new Button()
     }
 
     public void addOne() {
@@ -32,4 +31,27 @@ public class Spot {
         used++;
     }
 
+    public void makeButton(Button butt) {
+        marker = butt;
+    }
+
+    public int getX(){
+        return this.x;
+    }
+
+    public int getY(){
+        return this.y;
+    }
+
+    public int getAvail(){
+        return this.avail;
+    }
+
+    public int getUsed() {
+        return this.used;
+    }
+
+    public int getDonated() {
+        return this.donated;
+    }
 }
